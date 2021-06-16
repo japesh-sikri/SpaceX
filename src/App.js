@@ -21,9 +21,7 @@ function App() {
       URL = URL.concat(`&land_success=${state.land}`);
     }
     const data1 = await axios.default.get(URL);
-    console.log(data1);
     setData(data1.data);
-    console.log(data);
   }
 
   useEffect(apiCall, [state]);
