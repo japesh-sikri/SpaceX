@@ -7,11 +7,11 @@ const ResultCard = props => {
         }
     }
 
-    const land = () => {
-        if (props.land_success === null) {
+    const land = e => {
+        if (e === null) {
             return <span>null</span>
         } else {
-            return <span>{props.land_success.toString()}</span>
+            return <span>{e.toString()}</span>
         }
     }
 
@@ -32,11 +32,11 @@ const ResultCard = props => {
                 </h3>
                 <h3 className="py-1 ">
                     <span className="font-bold">Successful Launch: </span>
-                    <span>{props.launch_success.toString()}</span>
+                    {land(props.launch_success)}
                 </h3>
                 <h3 className="pt-1 pb-5">
                     <span className="font-bold">Successful Landing: </span>
-                    {land()}
+                    {land(props.land_success)}
                 </h3>
             </div>
         </div>
