@@ -1,13 +1,10 @@
-# Kudosware Assignment
+# Assignment
 
 Heroku Link: https://spacex-kudosware-assignment.herokuapp.com/
 
-### Important Note!!
-The image links provided by the api have been banned in India by the government. So you will need to enable a vpn to view the images.
-
 ## About the assignment
 
-I have created the required app as best I can in the given time frame.
+I have replicated the app required as best I can.
 
 I have used axios for api calls:
 
